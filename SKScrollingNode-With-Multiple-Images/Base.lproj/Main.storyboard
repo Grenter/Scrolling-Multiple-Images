@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BV1-FR-VrT">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="GameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8aa-yV-Osq"/>
+                        <viewControllerLayoutGuide type="bottom" id="qHh-Mt-9TT"/>
+                    </layoutGuides>
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kak-qO-dgm" userLabel="Game View" customClass="SKView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Kak-qO-dgm" firstAttribute="leading" secondItem="3se-qz-xqx" secondAttribute="leadingMargin" constant="-20" id="0be-a3-Kxd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Kak-qO-dgm" secondAttribute="trailing" constant="-20" id="QjX-qn-EKI"/>
+                            <constraint firstItem="qHh-Mt-9TT" firstAttribute="top" secondItem="Kak-qO-dgm" secondAttribute="bottom" id="bx7-FD-nEB"/>
+                            <constraint firstItem="Kak-qO-dgm" firstAttribute="top" secondItem="8aa-yV-Osq" secondAttribute="bottom" constant="-20" id="faL-UZ-uCZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="gameView" destination="Kak-qO-dgm" id="AOd-gj-RMF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="297" y="207"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA033B9E1C484B4200039A84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA033B9D1C484B4200039A84 /* main.m */; };
+		FA033BA11C484B4200039A84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA033BA01C484B4200039A84 /* AppDelegate.m */; };
+		FA033BA91C484B4200039A84 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA033BA81C484B4200039A84 /* GameViewController.m */; };
+		FA033BAC1C484B4200039A84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA033BAA1C484B4200039A84 /* Main.storyboard */; };
+		FA033BAE1C484B4200039A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA033BAD1C484B4200039A84 /* Assets.xcassets */; };
+		FA033BB11C484B4200039A84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA033BAF1C484B4200039A84 /* LaunchScreen.storyboard */; };
+		FA033BBC1C484B4200039A84 /* SKScrollingNode_With_Multiple_ImagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA033BBB1C484B4200039A84 /* SKScrollingNode_With_Multiple_ImagesTests.m */; };
+		FA033BC71C484B4200039A84 /* SKScrollingNode_With_Multiple_ImagesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA033BC61C484B4200039A84 /* SKScrollingNode_With_Multiple_ImagesUITests.m */; };
+		FA033BD61C484B5900039A84 /* SKScrollingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FA033BD51C484B5900039A84 /* SKScrollingNode.m */; };
+		FA033BD81C484DF000039A84 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FA033BD71C484DF000039A84 /* GameScene.m */; };
+		FA033BDD1C4854C500039A84 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA033BDC1C4854C500039A84 /* GameScene.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA033BB81C484B4200039A84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA033B911C484B4100039A84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA033B981C484B4100039A84;
+			remoteInfo = "SKScrollingNode-With-Multiple-Images";
+		};
+		FA033BC31C484B4200039A84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA033B911C484B4100039A84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA033B981C484B4100039A84;
+			remoteInfo = "SKScrollingNode-With-Multiple-Images";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA033B991C484B4100039A84 /* SKScrollingNode-With-Multiple-Images.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SKScrollingNode-With-Multiple-Images.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA033B9D1C484B4200039A84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA033B9F1C484B4200039A84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA033BA01C484B4200039A84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA033BA21C484B4200039A84 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		FA033BA71C484B4200039A84 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		FA033BA81C484B4200039A84 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		FA033BAB1C484B4200039A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA033BAD1C484B4200039A84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA033BB01C484B4200039A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA033BB21C484B4200039A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA033BB71C484B4200039A84 /* SKScrollingNode-With-Multiple-ImagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SKScrollingNode-With-Multiple-ImagesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA033BBB1C484B4200039A84 /* SKScrollingNode_With_Multiple_ImagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKScrollingNode_With_Multiple_ImagesTests.m; sourceTree = "<group>"; };
+		FA033BBD1C484B4200039A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA033BC21C484B4200039A84 /* SKScrollingNode-With-Multiple-ImagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SKScrollingNode-With-Multiple-ImagesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA033BC61C484B4200039A84 /* SKScrollingNode_With_Multiple_ImagesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKScrollingNode_With_Multiple_ImagesUITests.m; sourceTree = "<group>"; };
+		FA033BC81C484B4200039A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA033BD41C484B5900039A84 /* SKScrollingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKScrollingNode.h; sourceTree = "<group>"; };
+		FA033BD51C484B5900039A84 /* SKScrollingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKScrollingNode.m; sourceTree = "<group>"; };
+		FA033BD71C484DF000039A84 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		FA033BDC1C4854C500039A84 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA033B961C484B4100039A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA033BB41C484B4200039A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA033BBF1C484B4200039A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA033B901C484B4100039A84 = {
+			isa = PBXGroup;
+			children = (
+				FA033B9B1C484B4100039A84 /* SKScrollingNode-With-Multiple-Images */,
+				FA033BBA1C484B4200039A84 /* SKScrollingNode-With-Multiple-ImagesTests */,
+				FA033BC51C484B4200039A84 /* SKScrollingNode-With-Multiple-ImagesUITests */,
+				FA033B9A1C484B4100039A84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA033B9A1C484B4100039A84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA033B991C484B4100039A84 /* SKScrollingNode-With-Multiple-Images.app */,
+				FA033BB71C484B4200039A84 /* SKScrollingNode-With-Multiple-ImagesTests.xctest */,
+				FA033BC21C484B4200039A84 /* SKScrollingNode-With-Multiple-ImagesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA033B9B1C484B4100039A84 /* SKScrollingNode-With-Multiple-Images */ = {
+			isa = PBXGroup;
+			children = (
+				FA033B9F1C484B4200039A84 /* AppDelegate.h */,
+				FA033BA01C484B4200039A84 /* AppDelegate.m */,
+				FA033BA21C484B4200039A84 /* GameScene.h */,
+				FA033BD71C484DF000039A84 /* GameScene.m */,
+				FA033BDC1C4854C500039A84 /* GameScene.sks */,
+				FA033BA71C484B4200039A84 /* GameViewController.h */,
+				FA033BA81C484B4200039A84 /* GameViewController.m */,
+				FA033BAA1C484B4200039A84 /* Main.storyboard */,
+				FA033BAD1C484B4200039A84 /* Assets.xcassets */,
+				FA033BAF1C484B4200039A84 /* LaunchScreen.storyboard */,
+				FA033BB21C484B4200039A84 /* Info.plist */,
+				FA033B9C1C484B4100039A84 /* Supporting Files */,
+				FA033BD41C484B5900039A84 /* SKScrollingNode.h */,
+				FA033BD51C484B5900039A84 /* SKScrollingNode.m */,
+			);
+			path = "SKScrollingNode-With-Multiple-Images";
+			sourceTree = "<group>";
+		};
+		FA033B9C1C484B4100039A84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA033B9D1C484B4200039A84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA033BBA1C484B4200039A84 /* SKScrollingNode-With-Multiple-ImagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA033BBB1C484B4200039A84 /* SKScrollingNode_With_Multiple_ImagesTests.m */,
+				FA033BBD1C484B4200039A84 /* Info.plist */,
+			);
+			path = "SKScrollingNode-With-Multiple-ImagesTests";
+			sourceTree = "<group>";
+		};
+		FA033BC51C484B4200039A84 /* SKScrollingNode-With-Multiple-ImagesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA033BC61C484B4200039A84 /* SKScrollingNode_With_Multiple_ImagesUITests.m */,
+				FA033BC81C484B4200039A84 /* Info.plist */,
+			);
+			path = "SKScrollingNode-With-Multiple-ImagesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA033B981C484B4100039A84 /* SKScrollingNode-With-Multiple-Images */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA033BCB1C484B4200039A84 /* Build configuration list for PBXNativeTarget "SKScrollingNode-With-Multiple-Images" */;
+			buildPhases = (
+				FA033B951C484B4100039A84 /* Sources */,
+				FA033B961C484B4100039A84 /* Frameworks */,
+				FA033B971C484B4100039A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SKScrollingNode-With-Multiple-Images";
+			productName = "SKScrollingNode-With-Multiple-Images";
+			productReference = FA033B991C484B4100039A84 /* SKScrollingNode-With-Multiple-Images.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA033BB61C484B4200039A84 /* SKScrollingNode-With-Multiple-ImagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA033BCE1C484B4200039A84 /* Build configuration list for PBXNativeTarget "SKScrollingNode-With-Multiple-ImagesTests" */;
+			buildPhases = (
+				FA033BB31C484B4200039A84 /* Sources */,
+				FA033BB41C484B4200039A84 /* Frameworks */,
+				FA033BB51C484B4200039A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA033BB91C484B4200039A84 /* PBXTargetDependency */,
+			);
+			name = "SKScrollingNode-With-Multiple-ImagesTests";
+			productName = "SKScrollingNode-With-Multiple-ImagesTests";
+			productReference = FA033BB71C484B4200039A84 /* SKScrollingNode-With-Multiple-ImagesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA033BC11C484B4200039A84 /* SKScrollingNode-With-Multiple-ImagesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA033BD11C484B4200039A84 /* Build configuration list for PBXNativeTarget "SKScrollingNode-With-Multiple-ImagesUITests" */;
+			buildPhases = (
+				FA033BBE1C484B4200039A84 /* Sources */,
+				FA033BBF1C484B4200039A84 /* Frameworks */,
+				FA033BC01C484B4200039A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA033BC41C484B4200039A84 /* PBXTargetDependency */,
+			);
+			name = "SKScrollingNode-With-Multiple-ImagesUITests";
+			productName = "SKScrollingNode-With-Multiple-ImagesUITests";
+			productReference = FA033BC21C484B4200039A84 /* SKScrollingNode-With-Multiple-ImagesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA033B911C484B4100039A84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Grenter;
+				TargetAttributes = {
+					FA033B981C484B4100039A84 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FA033BB61C484B4200039A84 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FA033B981C484B4100039A84;
+					};
+					FA033BC11C484B4200039A84 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FA033B981C484B4100039A84;
+					};
+				};
+			};
+			buildConfigurationList = FA033B941C484B4100039A84 /* Build configuration list for PBXProject "SKScrollingNode-With-Multiple-Images" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA033B901C484B4100039A84;
+			productRefGroup = FA033B9A1C484B4100039A84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA033B981C484B4100039A84 /* SKScrollingNode-With-Multiple-Images */,
+				FA033BB61C484B4200039A84 /* SKScrollingNode-With-Multiple-ImagesTests */,
+				FA033BC11C484B4200039A84 /* SKScrollingNode-With-Multiple-ImagesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA033B971C484B4100039A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA033BDD1C4854C500039A84 /* GameScene.sks in Resources */,
+				FA033BB11C484B4200039A84 /* LaunchScreen.storyboard in Resources */,
+				FA033BAE1C484B4200039A84 /* Assets.xcassets in Resources */,
+				FA033BAC1C484B4200039A84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA033BB51C484B4200039A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA033BC01C484B4200039A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA033B951C484B4100039A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA033BA91C484B4200039A84 /* GameViewController.m in Sources */,
+				FA033BD61C484B5900039A84 /* SKScrollingNode.m in Sources */,
+				FA033BD81C484DF000039A84 /* GameScene.m in Sources */,
+				FA033BA11C484B4200039A84 /* AppDelegate.m in Sources */,
+				FA033B9E1C484B4200039A84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA033BB31C484B4200039A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA033BBC1C484B4200039A84 /* SKScrollingNode_With_Multiple_ImagesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA033BBE1C484B4200039A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA033BC71C484B4200039A84 /* SKScrollingNode_With_Multiple_ImagesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA033BB91C484B4200039A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA033B981C484B4100039A84 /* SKScrollingNode-With-Multiple-Images */;
+			targetProxy = FA033BB81C484B4200039A84 /* PBXContainerItemProxy */;
+		};
+		FA033BC41C484B4200039A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA033B981C484B4100039A84 /* SKScrollingNode-With-Multiple-Images */;
+			targetProxy = FA033BC31C484B4200039A84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA033BAA1C484B4200039A84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA033BAB1C484B4200039A84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA033BAF1C484B4200039A84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA033BB01C484B4200039A84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA033BC91C484B4200039A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA033BCA1C484B4200039A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA033BCC1C484B4200039A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SKScrollingNode-With-Multiple-Images/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Grenter.SKScrollingNode-With-Multiple-Images";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA033BCD1C484B4200039A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SKScrollingNode-With-Multiple-Images/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Grenter.SKScrollingNode-With-Multiple-Images";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA033BCF1C484B4200039A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "SKScrollingNode-With-Multiple-ImagesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Grenter.SKScrollingNode-With-Multiple-ImagesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKScrollingNode-With-Multiple-Images.app/SKScrollingNode-With-Multiple-Images";
+			};
+			name = Debug;
+		};
+		FA033BD01C484B4200039A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SKScrollingNode-With-Multiple-ImagesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Grenter.SKScrollingNode-With-Multiple-ImagesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKScrollingNode-With-Multiple-Images.app/SKScrollingNode-With-Multiple-Images";
+			};
+			name = Release;
+		};
+		FA033BD21C484B4200039A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "SKScrollingNode-With-Multiple-ImagesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Grenter.SKScrollingNode-With-Multiple-ImagesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SKScrollingNode-With-Multiple-Images";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FA033BD31C484B4200039A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SKScrollingNode-With-Multiple-ImagesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Grenter.SKScrollingNode-With-Multiple-ImagesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SKScrollingNode-With-Multiple-Images";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA033B941C484B4100039A84 /* Build configuration list for PBXProject "SKScrollingNode-With-Multiple-Images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA033BC91C484B4200039A84 /* Debug */,
+				FA033BCA1C484B4200039A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA033BCB1C484B4200039A84 /* Build configuration list for PBXNativeTarget "SKScrollingNode-With-Multiple-Images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA033BCC1C484B4200039A84 /* Debug */,
+				FA033BCD1C484B4200039A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA033BCE1C484B4200039A84 /* Build configuration list for PBXNativeTarget "SKScrollingNode-With-Multiple-ImagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA033BCF1C484B4200039A84 /* Debug */,
+				FA033BD01C484B4200039A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA033BD11C484B4200039A84 /* Build configuration list for PBXNativeTarget "SKScrollingNode-With-Multiple-ImagesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA033BD21C484B4200039A84 /* Debug */,
+				FA033BD31C484B4200039A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA033B911C484B4100039A84 /* Project object */;
+}
